@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: azurecurve Tag Cloud\n"
+"POT-Creation-Date: 2014-12-17 19:40-0000\n"
+"PO-Revision-Date: 2014-12-17 19:40-0000\n"
+"Last-Translator: azurecurve WordPress Development <wordpress@azurecurve.co."
+"uk>\n"
+"Language-Team: azurecurve WordPress Development <azurecurvewpdev@azurecurve."
+"co.uk>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;sprintf\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: azurecurve-tag-cloud.php:117
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: azurecurve-tag-cloud.php:125 azurecurve-tag-cloud.php:313
+msgid "azurecurve Tag Cloud Settings"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:133
+msgid "Include/Exclude Tags?"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:138
+msgid ""
+"Flag whether marked tags should be included or excluded from the tag cloud"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:155
+msgid "Mark the tags you want to include/exclude from the tag cloud"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:160
+msgid "Use Network Settings"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:161
+msgid "Use Network Settings? The settings below will be ignored"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:165 azurecurve-tag-cloud.php:321
+msgid "Smallest Size"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:167 azurecurve-tag-cloud.php:323
+msgid "The text size of the tag with the lowest count value"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:169 azurecurve-tag-cloud.php:325
+msgid "Largest Size"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:171 azurecurve-tag-cloud.php:327
+msgid "The text size of the tag with the highest count value"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:173 azurecurve-tag-cloud.php:329
+msgid "Unit"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:180 azurecurve-tag-cloud.php:336
+msgid "Unit of measure as pertains to the smallest and largest values"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:182 azurecurve-tag-cloud.php:338
+msgid "Number Of Tags"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:184 azurecurve-tag-cloud.php:340
+msgid "The number of actual tags to display in the cloud"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:186 azurecurve-tag-cloud.php:342
+msgid "Format"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:191 azurecurve-tag-cloud.php:347
+msgid "Format of the cloud display"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:193 azurecurve-tag-cloud.php:349
+msgid "Order By"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:198 azurecurve-tag-cloud.php:354
+msgid "Order of the tags"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:200 azurecurve-tag-cloud.php:356
+msgid "Order"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:206 azurecurve-tag-cloud.php:362
+msgid "Sort order"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:224 azurecurve-tag-cloud.php:307
+#: azurecurve-tag-cloud.php:373
+msgid "You do not have permissions to perform this action"
+msgstr ""
+
+#: azurecurve-tag-cloud.php:441
+msgid "A customizable cloud of your most used tags."
+msgstr ""
