@@ -4,7 +4,7 @@ Plugin Name: azurecurve Tag Cloud
 Plugin URI: http://wordpress.azurecurve.co.uk/plugins/tag-cloud/
 
 Description: Displays a tag cloud with easy control of settings and exclusion of tags from the cloud.
-Version: 1.0.2
+Version: 1.0.3
 
 Author: azurecurve
 Author URI: http://wordpress.azurecurve.co.uk/
@@ -510,8 +510,8 @@ class azurecurve_tag_cloud extends WP_Widget {
 					'unit'                      => $options['unit'],
 					'number'                    => $options['number'],
 					'format'                    => $options['format'],
-					'orderby'                   => $options['orderby'],
-					'order'                     => $options['order']
+					'orderby'                   => strtolower($options['orderby']),
+					'order'                     => strtoupper($options['order'])
 				//	'include'					=> ($options['include_exclude'] == 'include' ? $options['tag'] : null)
 				//	'exclude'					=> ($options['include_exclude'] == 'exclude' ? $options['tag'] : null)
 				);
