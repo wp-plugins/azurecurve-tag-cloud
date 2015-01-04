@@ -4,7 +4,7 @@ Plugin Name: azurecurve Tag Cloud
 Plugin URI: http://wordpress.azurecurve.co.uk/plugins/tag-cloud/
 
 Description: Displays a tag cloud with easy control of settings and exclusion of tags from the cloud.
-Version: 1.0.1
+Version: 1.0.2
 
 Author: azurecurve
 Author URI: http://wordpress.azurecurve.co.uk/
@@ -226,7 +226,7 @@ function process_azc_tc_options() {
 	// Check that nonce field created in configuration form is present
 	if ( ! empty( $_POST ) && check_admin_referer( 'azc_tc_nonce', 'azc_tc_nonce' ) ) {
 		// Retrieve original plugin options array
-		$options = get_option( 'azc_tc_options' );
+		$options = get_site_option( 'azc_tc_options' );
 		
 		$option_name = 'include_exclude';
 		if ( isset( $_POST[$option_name] ) ) {
@@ -499,7 +499,7 @@ class azurecurve_tag_cloud extends WP_Widget {
 		echo apply_filters( 'widget_title', $widget_title );
 		echo $after_title; 
 		
-		$options = get_site_option( 'azc_tc_options' );
+		$options = get_option( 'azc_tc_options' );
 		$siteoptions = $options;
 		if ($options['use_network_settings'] == 1){
 			$options = get_site_option( 'azc_tc_options' );
