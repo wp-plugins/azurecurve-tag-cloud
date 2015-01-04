@@ -4,7 +4,7 @@ Plugin Name: azurecurve Tag Cloud
 Plugin URI: http://wordpress.azurecurve.co.uk/plugins/tag-cloud/
 
 Description: Displays a tag cloud with easy control of settings and exclusion of tags from the cloud.
-Version: 1.0.3
+Version: 1.0.4
 
 Author: azurecurve
 Author URI: http://wordpress.azurecurve.co.uk/
@@ -296,7 +296,7 @@ function add_azc_tc_network_settings_page() {
 			'azurecurve Tag Cloud Settings',
 			'azurecurve Tag Cloud',
 			'manage_network_options',
-			'azurecurve-Tag Cloud',
+			'azurecurve-tag-cloud',
 			'azc_tc_network_settings_page'
 			);
 	}

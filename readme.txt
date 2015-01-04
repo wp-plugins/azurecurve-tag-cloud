@@ -6,7 +6,7 @@ Plugin URI: http://wordpress.azurecurve.co.uk/plugins/tag-cloud/
 Tags: tag cloud, tags, cloud
 Requires at least: 3.3
 Tested up to: 4.1.0
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,8 @@ A Settings page allows all settings to be configured; deploy the widget to the s
 
 == Changelog ==
 Changes and feature additions for the Tag Cloud plugin:
+= 1.0.4 =
+* Fix bug with multisite admin menu link
 = 1.0.3 =
 * Fix bug order of tag cloud
 = 1.0.2 =
