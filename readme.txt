@@ -5,7 +5,7 @@ Author URI: http://wordpress.azurecurve.co.uk/
 Plugin URI: http://wordpress.azurecurve.co.uk/plugins/tag-cloud/
 Tags: tag cloud, tags, cloud
 Requires at least: 3.3
-Tested up to: 4.0.1
+Tested up to: 4.1.0
 Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
